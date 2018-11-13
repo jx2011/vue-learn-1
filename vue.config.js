@@ -2,10 +2,10 @@
 var baseUrl = '/';
 
 module.exports = {
-    baseUrl: '/',
+    baseUrl: './',
     devServer: {
         port: 8089,
-        publicPath: baseUrl // 和 baseUrl 保持一致
+        publicPath: baseUrl, // 和 baseUrl 保持一致
     },
     outputDir: 'dist',
     assetsDir: 'statics',
