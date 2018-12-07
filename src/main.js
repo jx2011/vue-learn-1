@@ -5,12 +5,15 @@ import store from './store/index'
 
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import './assets/style/loaders.css'
+Vue.use(ElementUI, { size: 'small', zIndex: 3000 })
 
+// import { DatePicker } from 'element-ui'
+// Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 }
+
+// Vue.use(DatePicker)
 
 Vue.config.productionTip = false
-
-Vue.use(ElementUI)
-
 new Vue({
     data() {
         return {
